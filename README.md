@@ -13,6 +13,7 @@ SELECT CDB_OVERLAP_SUM(
           'stuartlynn')
 ```
 
+where CDB_OVERLAP_SUM can be found here : [https://github.com/CartoDB/crankshaft/blob/master/pg/sql/0.0.1/03_overlap_sum.sql](https://github.com/CartoDB/crankshaft/blob/master/pg/sql/0.0.1/03_overlap_sum.sql)
 Download tiles to ./tiles
 
 Train NN to predict the population off the tile set using keras.
